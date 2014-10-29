@@ -72,11 +72,11 @@ View全体にWebViewを配置して実行すると、iPhone5sの大きさだと�
 
 ![Top Layout Guide](https://www.evernote.com/shard/s12/sh/84745d3c-dbf1-4bcf-a965-bffa1ed5d32e/db20ddf41393837f8342de03ba2915c9/deep/0/スクリーンショット-2014-09-18-17.07.45.png)
 
-![上下左右にConstraintsを追加](https://www.evernote.com/shard/s12/sh/7fd70bf9-85ca-495f-957b-87d8ec583cc0/2ea56ee3cea9d373fd55ae00c1e450f0/deep/0/スクリーンショット-2014-10-29-21-26.png)
+![上下左右にConstraintsを追加](https://www.evernote.com/shard/s12/sh/e753f2f2-0b6a-4e41-846d-c30654eb0849/2354d58cf4233d50c18c4542233e3da7/deep/0/スクリーンショット-2014-10-29-21-51.png)
 
 View Controller Sceneは以下の様になります。
 
-![View Controller Scene](https://www.evernote.com/shard/s12/sh/139d134a-e208-4adb-80e3-521ea97b13e8/4a394024785afc57aaaf43f81c290563/deep/0/Main.storyboard---Edited.png)
+![View Controller Scene](https://www.evernote.com/shard/s12/sh/a43747e7-e338-4565-9193-70a327c7c4f3/907eb3d92e034a75706e31df1460cfba/deep/0/Main.storyboard.png)
 
 意気揚々とシミュレータを実行すると、
 
@@ -86,7 +86,7 @@ View Controller Sceneは以下の様になります。
 
 ## 原因と解決策
 
-気になったので、Xcode5で同じ手順で作ったものを、Xcode6で開いて比べてみました。比較した箇所は左右のConstraints（Horizontal Space - (-16)）のAttributesインスペクタです。
+気になったので、Xcode5で同じ手順で作ったものを、Xcode6で開いて比べてみました。比較した箇所は左右のConstraints（Horizontal Space）のAttributesインスペクタです。
 
 **Xcode5**
 ![Xcode5](https://www.evernote.com/shard/s12/sh/a6c0df08-abfd-4eff-8809-86659ba59908/5021fdf43407ed83d684bac31586a98e/deep/0/Main.storyboard.png)
