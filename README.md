@@ -109,8 +109,9 @@ Second Itemの項目に Marginが！！これが「-16」の正体ですね。
 
 
 >**参考**
+
 >[StackOverflowでの似たようなQuestion](http://stackoverflow.com/questions/25807545/what-is-constrain-to-margin-in-storyboard-in-xcode-6)
->
+
 >[Configuring Content Margins](https://developer.apple.com/LIBRARY/PRERELEASE/IOS/documentation/UIKit/Reference/UIView_Class/index.html#//apple_ref/occ/instp/UIView/layoutMargins)
 
 
