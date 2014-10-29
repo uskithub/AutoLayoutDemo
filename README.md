@@ -27,7 +27,7 @@ Xcode5では、Universalアプリを作るには、iPhone向けとiPad向けのS
 
 ![wRegular hRegular](https://www.evernote.com/shard/s12/sh/89ee0d8f-a0dd-44a6-8740-82fc4d11c2c4/d7812b63ac46c47c858e514efe13f399/deep/0/Main.storyboard---Edited-と-Documentation---Size-Classes-Design-Help--Changing-Constraints-and-Views-for-Size-Classes.png)
 
-キャプチャは付けませんが、wCompact hRegularなども可能です。wConpact hCompactは、Apple Watchの開発環境もXcodeであることを暗に示しているようですね。
+キャプチャは付けませんが、wCompact hRegularなども可能です。wCompact hCompactは、Apple Watchの開発環境もXcodeであることを暗に示しているようですね。
 
 
 # Xcode6でのStoryboardの使い方
@@ -110,6 +110,7 @@ Second Itemの項目に Marginが！！これが「-16」の正体ですね。
 
 >**参考**
 >[StackOverflowでの似たようなQuestion](http://stackoverflow.com/questions/25807545/what-is-constrain-to-margin-in-storyboard-in-xcode-6)
->
 >[Configuring Content Margins](https://developer.apple.com/LIBRARY/PRERELEASE/IOS/documentation/UIKit/Reference/UIView_Class/index.html#//apple_ref/occ/instp/UIView/layoutMargins)
+
+
 
